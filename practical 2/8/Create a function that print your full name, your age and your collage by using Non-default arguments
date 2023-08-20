@@ -1,0 +1,4 @@
+def myfunction(**s):
+  print("name : "+s["fristname"] +" \n " +"age:"+s["age"] +" \n"+"Collage: "+s["college"] )
+
+myfunction(fristname='Ahmed',age="22",college="art")
