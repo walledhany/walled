@@ -1,0 +1,11 @@
+v = "vls"
+c = "vlsp"
+b = "vlspad"
+z = "vlspadk"
+cx = "vlspadkt"
+cvx = "vlspadktn"
+cvr = "vlspadktnv"
+b = [v, c, b, z, cx, cvx, cvr]
+for i in b:
+
+  print(i)
