@@ -1,0 +1,32 @@
+practical 2/8/2023
+Data Structures:
+##Return a new sorted set of identical items from a given two set
+
+set1 = {10, 20, 30, 40, 50}
+
+set2 = {30, 40, 50, 60, 70}
+##Return a new sorted set of identical items from a given two set
+​
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+v=set1.intersection(set2)
+print(v)
+{40, 50, 30}
+set1.intersection_update(set2)
+print(set1)
+{40, 50, 30}
+lest1=list(set1)
+print (lest1)
+[40, 50, 30]
+lest1.sort()
+print(lest1)
+[30, 40, 50]
+set1=set(lest1)
+print(set1)
+{40, 50, 30}
+
+
+*****************************************************************
+tuple1 = (50, 10, 60, 70, 50,80,50,90,100)
+tuple1.count(50)
+3
