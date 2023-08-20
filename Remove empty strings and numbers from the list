@@ -1,0 +1,9 @@
+Remove empty strings and numbers from the list
+
+list_with_empty_strings = ['blue', ' ' ,'green', ' ' , 'red', ' ', 'yellow', 'orange', ' ']
+the solution:
+list_with_empty_strings = ['blue', '' ,'green', '' , 'red', '', 'yellow', 'orange', '']
+print(list(filter(None,list_with_empty_strings)))
+
+result:**
+['blue', 'green', 'red', 'yellow', 'orange']
