@@ -1,0 +1,9 @@
+def shwoemployee(employeename ,salary=9000):
+
+    print ("Employee:"+" "+employeename+"  "+"salary is" ,salary)
+
+
+
+shwoemployee("Ahmed" ,10000)
+shwoemployee("Ahmed" )
+shwoemployee("sara",20000 )    
