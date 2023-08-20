@@ -1,0 +1,11 @@
+Ask about the temperature degree. If it is greater than 35 degree, then wear shorts if not wear long pants
+What is the temperature? 35
+wear long pants
+Get some exeris
+
+ temperature=int(input());
+print("What is the temperature?")
+ if( temperature>35):
+        print("wear long pants Get some exerise",temperature)
+else:  
+    print("then wear shorts"
