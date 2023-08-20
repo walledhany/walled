@@ -1,0 +1,18 @@
+number=[20,40,60]
+def func1(nu) :
+
+ for c in (nu):
+  
+  print(c)
+
+
+
+
+
+
+
+
+
+
+
+func1(number
