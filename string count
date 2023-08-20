@@ -1,0 +1,6 @@
+def my_function(*kids):
+ 
+  kids[0]+" "+kids[1] +" "+ kids[2]
+  print (kids[0],len(kids[0]),kids[1],len(kids[1]),kids[2] ,len(kids[2]),kids[3] ,len(kids[3]),kids[4] ,len(kids[4]))
+         
+my_function("ahm", "ali", "the","longest","lenght")
